@@ -1,0 +1,31 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ, IntelliJ IDEA, VSCode, NetBeans, Eclipse folders
+/.idea/
+/.vscode/
+/nbproject/
+/out/
+/bin/
+/target/
+
+# Mac / Linux / Windows system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+
+
+
+# Java crash logs
+hs_err_pid*
+replay_pid*
+
+
+.classpath
+.project
