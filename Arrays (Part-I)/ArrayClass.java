@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+// Array Creation
 public class ArrayClass{
     public static void main(String[] args){
         int nums[] = new int[100]; // 0 , 99

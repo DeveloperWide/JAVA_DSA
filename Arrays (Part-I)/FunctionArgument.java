@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+// Arrays as Function Arguments
 public class FunctionArgument{
 
     static void array_as_argument(int[] arr, int num){
