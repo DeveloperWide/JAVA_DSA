@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Prefix{
 
-    public static int prefixSum(int[] arr){
+    public static void prefixSum(int[] arr){
         int[] prefixSum = new int[arr.length];
         prefixSum[0] = arr[0];
 
@@ -18,12 +18,12 @@ public class Prefix{
             min_prefix_sum = Math.min(min_prefix_sum, prefixSum[i]);
         }
 
-        return maxSum;
+        System.out.println("Max Sum : " + maxSum);
     }
 
 
     public static void main(String[] args){
-        int[] arr ={10, 20, 30, -40 , 50, -60};
-        System.out.println(prefixSum(arr));
+        int[] nums = {10, 20, 30, -40 , 50, -60}; 
+       prefixSum(nums);
     }
 }
